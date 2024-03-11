@@ -141,18 +141,41 @@ section {
   background-color: white;
 }
 
-.m_color {
-  width: 20px;
-  height: 20px;
-  padding: 2px;
-  background-color: var(--second);
-}
-
 .prevision {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.5em;
   position: relative;
-  bottom: -20px;
+  bottom: 0;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.agh-logo {
+  width: 35px;
+  height: 57px;
+  position: relative;
+  left: -40px;
+}
+
+.lang-button {
+  background-color: var(--main-yellow);
+  border-radius: 8px;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  outline: none;
+  padding: 8px 14px;
+  position: relative;
+  left: 88%;
+  text-align: center;
+  transition: background-color 0.4s;
+}
+
+.lang-button:hover {
+  background-color: var(--main);
 }
 
 /*responsive*/
