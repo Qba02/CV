@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2em;
   margin-bottom: 2px;
 }
 
@@ -193,11 +193,21 @@ section {
   }
   .prevision {
     bottom: 2px;
+    position: relative;
+    padding: 0;
   }
   .my-credentials {
     margin-left: 0%;
   }
   h3 {
     text-align: center;
+  }
+  .about-me{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 10px 0px 10px;
+  }
+  .lang-button{
+    left: 0;
   }
 }
