@@ -132,9 +132,9 @@ section {
 .prevision {
   font-style: italic;
   font-size: 0.55em;
-  position: absolute;
-  padding: 0 40px 0 0;
-  bottom: 20px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
   line-height: 1.5;
   letter-spacing: 0;
 }
