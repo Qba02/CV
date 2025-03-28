@@ -27,6 +27,8 @@ h3 {
   text-transform: uppercase;
   color: var(--second);
   letter-spacing: 0.07rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0;
 }
 
 a {
@@ -44,15 +46,17 @@ ul {
   padding-inline-start: 1em;
 }
 
+li {
+  margin-top: 2px;
+}
+
 a:hover {
   opacity: 70%;
 }
 
 main {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 1380px;
+  width: 1060px;
+  height: 1500px;
   background-color: white;
   box-shadow: 0px 0px 20px 3px rgb(59, 59, 59);
   display: flex;
@@ -93,7 +97,7 @@ main {
 .skills-li {
   list-style-type: none;
   font-size: 14px;
-  margin-top: 15px;
+  margin-top: 10px;
   font-weight: normal;
 }
 
@@ -101,7 +105,7 @@ main {
 .skills-ul {
   font-style: normal;
   margin-block-start: 0;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-inline-start: 0;
   font-weight: bold;
   font-size: 18px;
@@ -124,16 +128,19 @@ main {
 }
 
 section {
-  padding: 10px;
+  padding: 2px;
   margin: 0 auto;
   background-color: white;
 }
 
 .prevision {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   font-style: italic;
   font-size: 0.55em;
   margin: auto;
-  padding: 10px;
+  padding: 0 30px 0 30px;
   margin-bottom: 20px;
   line-height: 1.5;
   letter-spacing: 0;
